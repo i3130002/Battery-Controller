@@ -1,1 +1,4 @@
 BattertyManagement/db.sqlite3
+*.pyc
+assets/battery_charging (copy).png
+assets/battery_not_charging (copy).png
