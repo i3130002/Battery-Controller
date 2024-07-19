@@ -15,6 +15,22 @@ Icon=/home/user/Documents/Projects/Python/BatteryChargeLimitter/assets/battery_n
 Terminal=false
 Type=Application
 ```
+
+# Tested On
+* Asus TUF A15
+
+
+# License
+This software is for personal use only without the right to distribute or sell it.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 # Service (QT issues)
 `sudo gedit /etc/systemd/system/batterycontrol.service`
 ```
