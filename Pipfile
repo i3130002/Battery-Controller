@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 pyqt5 = "*"
-elevate = "*"
 
 [dev-packages]
 
