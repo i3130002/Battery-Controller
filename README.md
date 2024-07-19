@@ -1,5 +1,21 @@
 
-# Service
+![Tray Demo](screenshots/TrayDemo.jpeg)
+
+
+# Desktop application shortcut
+path: `~/.local/share/applications/battery-controller.desktop`
+
+```
+[Desktop Entry]
+Name=Battery Charge Controller 
+Version=1.0
+Comment=A gui app Battery Controller for linux
+Exec=python3 /home/user/Documents/Projects/Python/BatteryChargeLimitter/desktop.py
+Icon=/home/user/Documents/Projects/Python/BatteryChargeLimitter/assets/battery_not_charging.png
+Terminal=false
+Type=Application
+```
+# Service (QT issues)
 `sudo gedit /etc/systemd/system/batterycontrol.service`
 ```
 [Unit]
@@ -15,20 +31,6 @@ ExecStart=python3 /home/user/Documents/Projects/Python/BatteryChargeLimitter/ser
 
 [Install]
 WantedBy=multi-user.target
-```
-
-# Desktop application shortcut
-path: `~/.local/share/applications/battery-controller.desktop`
-
-```
-[Desktop Entry]
-Name=Battery Charge Controller 
-Version=1.0
-Comment=A gui app Battery Controller for linux
-Exec=python3 /home/user/Documents/Projects/Python/BatteryChargeLimitter/desktop.py
-Icon=/home/user/Documents/Projects/Python/BatteryChargeLimitter/assets/battery_not_charging.png
-Terminal=false
-Type=Application
 ```
 
 # Asset attribution
