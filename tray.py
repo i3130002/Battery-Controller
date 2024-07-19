@@ -2,14 +2,15 @@ from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
 import sys
 import utils
-
+import os
 
 class Tray:
     def __init__(self):
         # Create a Qt application
         self.app = QApplication(sys.argv)
-
-        icon = QIcon("assets/battery_not_charging.png")
+        # Get current path
+        self.current_path = os.path.dirname(os.path.realpath(__file__))
+        icon = QIcon(f"{self.current_path}/assets/battery_not_charging.png")
         menu = QMenu()
         action_to_100 = menu.addAction("To 100")
         action_to_80 = menu.addAction("To 80")
