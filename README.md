@@ -41,7 +41,7 @@ To have a application shortcut in applications menu generate the following file 
 Name=Battery Charge Controller 
 Version=1.0
 Comment=A gui app Battery Controller for linux
-Exec=python3 {PROJECT_ABSOLUTE_PATH}/desktop.py
+Exec=bash {PROJECT_ABSOLUTE_PATH}/desktop.py
 Icon={PROJECT_ABSOLUTE_PATH}/assets/battery_not_charging.png
 Terminal=false
 Type=Application

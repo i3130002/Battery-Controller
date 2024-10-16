@@ -1,11 +1,10 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "3fe85d97cee49934178f831052f73992c3fd9ee4196bebbb7d7782e67e21e439"
+            "sha256": "a1441a9861c9e711d949a7862d913e859efb4827b53724fb97afaea3e9a309a6"
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_full_version": "3.11.9",
             "python_version": "3.11"
         },
         "sources": [
@@ -32,11 +31,11 @@
         },
         "pyqt5-qt5": {
             "hashes": [
-                "sha256:730da7e6a97f6bad1b6df21082fe625647730418bc83e20cbc2ff6401ed0a8be",
-                "sha256:aa3911276b1a1aa9b5b9cba687ef905faddd706980d34e234312591c3d3cbef8",
-                "sha256:c89b35b2aaf24d2805cc76fe31880c77b7f7557db8aafb26f1015f1bba7031d6"
+                "sha256:611505d04ffb06a5e5bcf98f5ff0e4e15ba7785565ccbe7bd3b2e40642ea3bdd",
+                "sha256:eb74072935958a830887115b1de1ff26341fc2d5881b28129de39612b10a260e",
+                "sha256:f8b174725fbe29c1a22f8acce5798933a65c8a083f1d9833ff212479ec2b3c14"
             ],
-            "version": "==5.15.14"
+            "version": "==5.15.15"
         },
         "pyqt5-sip": {
             "hashes": [
